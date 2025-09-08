@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My First Webpage</title>
+</head>
+<body>
+
+  <h1>Aitkazin Zeiin</h1>
+  <h2>2nd course of Media Technologies</h2>
+
+  <!-- Layout Table -->
+  <table border="1" width="100%">
+    <tr>
+      <!-- Left column (Menu) -->
+      <td width="25%" valign="top">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#hobbies">My Hobbies</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#mood">Mood</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </td>
+
+      <!-- Right column (Main Content) -->
+      <td width="75%" valign="top">
+        <img src="photo.jpg" alt="My Photo" width="300">
+
+        <h1 id="about">About me</h1>
+        <p>My name is Zeiin, I’m 18 and from East Kazakhstan. I live in Astana, work at an online course,
+        and enjoy traveling and watching classic series from the past.</p>
+
+        <h2 id="hobbies">My hobbies</h2>
+        <ol>
+          <li>Editing videos</li>
+          <li>Watching series</li>
+          <li>Playing Japanese Horror games</li>
+        </ol>
+
+        <button>Click Me</button>
+
+        <h2 id="schedule">My Weekly Schedule</h2>
+        <table border="1">
+          <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+          </tr>
+          <tr>
+            <td>Foundation of Screenwriting</td>
+            <td>Monday</td>
+            <td>10:00</td>
+          </tr>
+          <tr>
+            <td>Russian Language 1</td>
+            <td>Tuesday</td>
+            <td>12:00</td>
+          </tr>
+          <tr>
+            <td>WEB Technologies 1 (Front End)</td>
+            <td>Friday</td>
+            <td>14:00</td>
+          </tr>
+        </table>
+
+        <h3 id="mood">My mood today:</h3>
+        <p>Today I feel happy 😊, but a bit tired because of long lectures 😴, but also excited to learn new things 🚀.</p>
+
+        <h2 id="contact">Contact Me</h2>
+        <form>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email"><br><br>
+
+          <label for="color">Favorite Color:</label><br>
+          <input type="color" id="color" name="color"><br><br>
+
+          <button type="submit">Submit</button>
+        </form>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
